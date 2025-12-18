@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Global Brands Hub</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Asrafel, sans-serif;
+            background: #fafafa;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background: red;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background: black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 12px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #fbc531;
+        }
+
+        /* Main Container */
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        /* Grids */
+        .grid {
+            display: grid;
+            gap: 20px;
+        }
+
+        .brands, .accessories, .platforms {
+            grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+        }
+
+        .box {
+            background: white;
+            border-radius: 6px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+        }
+
+        .box img {
+            width: 100px;
+            height: auto;
+        }
+
+        .box h4 {
+            margin: 10px 0 6px;
+        }
+
+        .btn-link {
+            display: inline-block;
+            padding: 8px 14px;
+            background: #0a3d62;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        .btn-link:hover {
+            background: #1e3799;
+        }
+
+        footer {
+            background: black;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Dantweb@communication
+    ( Global Brands & Shopping Hub)</h1>
+    <p>Your gateway to top brands, accessories & global business platforms</p>
+</header>
+
+<nav>
+    <a href="#brands">Brands</a>
+    <a href="#accessories">Accessories</a>
+    <a href="#shopping">Shopping Sites</a>
+    <a href="#business">Business Platforms</a>
+</nav>
+            
+<div class="container">
+
+    <!-- Brands Section -->
+    <h2 id="brands">Top Global Brands</h2>
+    <div class="grid brands">
+        <div class="box">
+            <img src="Nike logo.png" alt="Nike Logo">
+            <h4>Nike</h4>            
+            <a href="https://www.nike.com" class="btn-link" target="_blank">Visit</a>
+        </div>
+        <div class="box">
+            <img src="apple logo.png" alt="Apple Logo">
+            <h4>Apple</h4>
+            <a href="https://www.apple.com" class="btn-link" target="_blank">Visit</a>
+        </div>
+        <div class="box">
+            <img src="addidas logo.png" alt="Adidas Logo">
+            <h4>Adidas</h4>
+            <a href="https://www.adidas.com" class="btn-link" target="_blank">Visit</a>
+        </div>
+        <div class="box">
+            <img src="samsung logo.png" alt="Samsung Logo">
+            <h4>Samsung</h4>
+            <a href="https://www.samsung.com" class="btn-link" target="_blank">Visit</a>
+        </div>
+    </div>
+
+    <!-- Accessories Section -->
+    
+    <h2 id="accessories">Accessories & Trending</h2>
+    <div class="grid accessories">
+        <div class="box">
+          <img scr="wrist watch logo.png" alt="Wrist Watch">
+            <h4>Luxury Watch</h4>
+            <a href="#" class="btn-link">Shop Now</a>
+        </div>
+        <div class="box">
+            <img src="sunglasses.png" alt="Sunglasses">
+            <h4>Designer Shades</h4>
+            <a href="#" class="btn-link">Shop Now</a>
+        </div>
+        <div class="box">
+            <img src="bag.png" alt="Bag">
+            <h4>Fashion Bag</h4>
+            <a href="#" class="btn-link">Shop Now</a>
+        </div>
+        <div class="box">
+            <img src="headphones.png" alt="Headphones">
+            <h4>Wireless Headphones</h4>
+            <a href="#" class="btn-link">Shop Now</a>
+        </div>
+    </div>
+
+    <!-- Shopping Sites -->
+    <h2 id="shopping">Popular Shopping Sites</h2>
+    <div class="grid platforms">
+        <div class="box">
+            <img src="amazon_logo.png" alt="Amazon">
+            <h4>Amazon</h4>
+            <a href="https://www.amazon.com" class="btn-link" target="_blank">Go to Site</a>
+        </div>
+        <div class="box">
+            <img src="ebay_logo.png" alt="eBay">
+            <h4>eBay</h4>
+            <a href="https://www.ebay.com" class="btn-link" target="_blank">Go to Site</a>
+        </div>
+        <div class="box">
+            <img src="aliexpress_logo.png" alt="AliExpress">
+            <h4>AliExpress</h4>
+            <a href="https://www.aliexpress.com" class="btn-link" target="_blank">Go to Site</a>
+        </div>
+        <div class="box">
+            <img src="shopify_logo.png" alt="Shopify">
+            <h4>Shopify Stores</h4>
+            <a href="https://www.shopify.com" class="btn-link" target="_blank">Explore</a>
+        </div>
+    </div>
+
+    <!-- Business Platforms -->
+    <h2 id="business">Top Business Platforms</h2>
+    <div class="grid platforms">
+        <div class="box">
+            <img src="google_business.png" alt="Google Business">
+            <h4>Google Business</h4>
+            <a href="https://business.google.com" class="btn-link" target="_blank">Visit</a>
+        </div>
+        <div class="box">
+            <img src="linkedin_logo.png" alt="LinkedIn">
+            <h4>LinkedIn</h4>
+            <a href="https://www.linkedin.com" class="btn-link" target="_blank">Visit</a>
+        </div>
+        <div class="box">
+            <img src="paypal_logo.png" alt="PayPal">
+            <h4>PayPal</h4>
+            <a href="https://www.paypal.com" class="btn-link" target="_blank">Visit</a>
+        </div>
+        <div class="box">
+            <img src="shop_app.png" alt="Shop App">
+            <h4>Shop App</h4>
+            <a href="https://www.shop.com" class="btn-link" target="_blank">Visit</a>
+        </div>
+    </div>
+
+<footer>
+    <div class="footer-container">
+        <div>
+            <h3>Contact Us</h3>
+            <p>Email: Theophilusdanjuma05@gmail.com</p>
+            <p>Phone: +234 9038427810</p>
+        </div>
+
+        <div>
+            <h3>Send a Message</h3>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="4" placeholder="Your Message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <p>2026 Dantweb@communication</p>
+</footer>
+
+</body>
+</html>
